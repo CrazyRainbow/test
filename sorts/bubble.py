@@ -16,8 +16,6 @@ if __name__ == "__main__":
 
     num = int(input().strip())
     print("%d numbers will be input and sorted:" % num)
-    
-    use list:
 
     array = []
     for n in range(num):
@@ -27,5 +25,9 @@ if __name__ == "__main__":
 
     bubble_sort(array, num)
 
+    '''
     for n in range(num):
         print(array[n])
+    '''
+
+    print(array)
